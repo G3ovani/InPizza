@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    height: 30px 40px;
+    background-color: rgba(253, 253, 253, 0.055);
+    font-size: 180%;
+    text-decoration: line-through;
+}
+nav img{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 1;
+    width: 180px;
+    height: 180px;
+
+}
+.menu-desktop{
+    margin: 0;
+    padding: 0%;
+    text-align: center;
+}
+.menu-desktop li{
+    list-style: none;
+    display: inline;
+}
+.menu-desktop li a{
+    padding: 30px 40px;
+    text-decoration: none;
+    color: rgb(235, 227, 227);
+    display: inline-block;
+    margin-right: -3px;
+    font-size: 80%;
+    letter-spacing: 0.60;
+
+}
+.menu-desktop li a:hover{
+    background-color: brown;
+}
+header{
+    width: 100%;
+    height: 1600px;
+    margin-bottom: 100px;
+    background-image: url(../img/Coleman-eating-Pizza11-337x300.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 600%;
+    color:white;
+    text-align: center;
+    padding: 10%;
+    text-shadow: 10px 10px 10px #000000d2;
+}
+#apresentacao{
+    display: block;
+    width: 90%;
+    max-width: 1500px;
+    min-width: 320px;
+    margin: 50px auto;
+}
+.pizza{
+    width: 30%;
+    float: left;
+    background-color: aliceblue;
+    box-shadow: 10px 10px 5px rgba(red, green, blue, alpha);
+}
+.pizza img{
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: top center;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+.pizza h2{
+    text-align: center;
+    margin-bottom: 0;
+    
+}
+.pizza p{
+    text-align: center;
+    padding: 5%;
+    margin-top: 1%;
+    color: black;
+    font-size: 90%;
+}
+.pizza a{
+    display: block;
+    text-align: center;
+    background-color: rgba(10, 5, 5, 0.39);
+    color: azure;
+    padding: 3%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+.pizza a:hover{
+    background-color: darkgreen;
+}
+.direita{
+    float: right;
+
+}
+.centro{
+    margin-left: 5%;
+    
+}
+footer{
+    margin-top: 50px;
+    width: 100%;
+    background-color: coral;
+}
+footer p{
+    text-align: center;
+    font-family: cursive;
+    font-weight: 700;
+    color: aliceblue;
+}
+main{
+    height: 500px;
+    width: 100%;
+}
